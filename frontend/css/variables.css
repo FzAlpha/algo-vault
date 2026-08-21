@@ -1,0 +1,85 @@
+:root {
+  /* Color Palette - Vibrant Dark Cyber Aesthetics */
+  --bg-primary: #0a0e0c;
+  --bg-surface: #101713;
+  --bg-card: #151f1a;
+  --bg-card-hover: #1b2822;
+  --bg-elevated: #1e2d26;
+  --bg-input: #0d1410;
+  
+  --border-subtle: #1c2b23;
+  --border-medium: #273e32;
+  --border-bright: #395c4b;
+  --border-glow: rgba(74, 222, 128, 0.35);
+
+  --accent-primary: #4ade80;       /* Neon Terminal Green */
+  --accent-primary-hover: #22c55e;
+  --accent-primary-glow: rgba(74, 222, 128, 0.4);
+  --accent-primary-dim: rgba(74, 222, 128, 0.12);
+
+  --accent-purple: #a855f7;        /* Electric Cyber Purple */
+  --accent-purple-glow: rgba(168, 85, 247, 0.4);
+  --accent-purple-dim: rgba(168, 85, 247, 0.12);
+
+  --accent-blue: #38bdf8;          /* Cyber Sky Blue */
+  --accent-amber: #fbbf24;         /* Amber Warning */
+  --accent-red: #f87171;           /* Crimson Error */
+
+  --diff-easy: #4ade80;
+  --diff-easy-dim: rgba(74, 222, 128, 0.15);
+  --diff-medium: #fbbf24;
+  --diff-medium-dim: rgba(251, 191, 36, 0.15);
+  --diff-hard: #f87171;
+  --diff-hard-dim: rgba(248, 113, 113, 0.15);
+
+  /* Typography Colors */
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  --text-dim: #4b5563;
+  --text-code: #86efac;
+
+  /* Typography Fonts */
+  --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+
+  /* Layout & Sizing */
+  --sidebar-width: 250px;
+  --header-height: 64px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+
+  /* Shadows & Glassmorphism */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.6);
+  --shadow-glow-green: 0 0 20px rgba(74, 222, 128, 0.25);
+  --shadow-glow-purple: 0 0 20px rgba(168, 85, 247, 0.25);
+
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Theme: Obsidian */
+[data-theme="obsidian"] {
+  --bg-primary: #09090b;
+  --bg-surface: #121215;
+  --bg-card: #18181c;
+  --bg-card-hover: #222228;
+  --border-subtle: #27272f;
+  --border-medium: #383844;
+}
+
+/* Theme: Hacker Terminal */
+[data-theme="terminal"] {
+  --bg-primary: #020804;
+  --bg-surface: #05140a;
+  --bg-card: #081c0e;
+  --bg-card-hover: #0c2613;
+  --border-subtle: #0f331a;
+  --border-medium: #174d27;
+  --accent-primary: #22c55e;
+}

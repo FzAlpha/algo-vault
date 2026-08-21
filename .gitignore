@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+bin/
+*.o
+*.out
+*.exe
+compile_commands.json
+
+# SQLite runtime files
+*.db
+*.db-shm
+*.db-wal
+
+# Dependencies & Node
+node_modules/
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
